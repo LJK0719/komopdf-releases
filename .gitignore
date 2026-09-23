@@ -1,0 +1,9 @@
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.zip
+*.tar.gz
+.env*
+node_modules/
+tmp/

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Web editor issues
+    url: https://github.com/LJK0719/komopdf/issues
+    about: Report source and web editor issues in the public source repository.
+  - name: Report a security vulnerability privately
+    url: https://github.com/LJK0719/komopdf/security/advisories/new
+    about: Do not disclose vulnerabilities or confidential documents in a public issue.

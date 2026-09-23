@@ -1,0 +1,36 @@
+name: Desktop bug report
+description: Report a reproducible komopdf desktop issue.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload confidential PDFs, credentials, or private workspace files. Use a synthetic or redacted reproducer. Report security vulnerabilities privately."
+  - type: input
+    id: version
+    attributes:
+      label: komopdf version
+      placeholder: "Version shown in the application or release page"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows x64
+        - macOS Apple Silicon (arm64)
+        - macOS Intel (x64)
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and expected / actual result
+      description: Include the minimal steps and whether the issue persists after saving and reopening.
+    validations:
+      required: true
