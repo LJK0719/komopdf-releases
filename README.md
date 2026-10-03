@@ -6,7 +6,7 @@ Official distribution repository for **komopdf**, the local-first PDF editor for
 - Available installers: [GitHub Releases](https://github.com/LJK0719/komopdf-releases/releases)
 - Open-source web editor and shared PDF engine: [LJK0719/komopdf](https://github.com/LJK0719/komopdf)
 
-The release list can be empty while installation, signing and platform verification are in progress. This repository does not turn development executables into production installers. The website will only show download links for published packages.
+The release list can be empty while verification is in progress. This repository does not turn development executables into production installers. The website will only show download links for published packages.
 
 ## Supported release targets
 
@@ -18,7 +18,7 @@ The release list can be empty while installation, signing and platform verificat
 
 macOS architectures have separate packages; an arm64 package is not a universal or Intel binary. See each release for its tested minimum OS and requirements.
 
-Each complete release includes the installers, `stable.json`, `SHA256SUMS`, release notes and `THIRD_PARTY_NOTICES.txt`. Download fixed-version assets from the release page; do not substitute a guessed URL or a third-party wrapper.
+Each release includes its verified installers, `stable.json`, `SHA256SUMS`, release notes and `THIRD_PARTY_NOTICES.txt`. Platforms can ship separately: 0.1.4 provides Windows x64; new macOS installers are not included. Download only architectures actually listed in a release, using its fixed-version assets; do not substitute a guessed URL or a third-party wrapper.
 
 ## Verify a download
 
@@ -26,7 +26,6 @@ Windows PowerShell:
 
 ```powershell
 Get-FileHash .\komopdf-VERSION-windows-x64-setup.exe -Algorithm SHA256
-Get-AuthenticodeSignature .\komopdf-VERSION-windows-x64-setup.exe
 ```
 
 macOS:
@@ -35,7 +34,7 @@ macOS:
 shasum -a 256 komopdf-VERSION-macos-arm64.dmg
 ```
 
-Compare the exact hash against `SHA256SUMS` and the website. A checksum detects a changed file; it does not replace platform code-signature/notarization verification. Do not bypass operating-system security warnings to run an unexpected or unverifiable download.
+Compare the exact hash against `SHA256SUMS` and the website. Do not bypass operating-system security warnings to run an unexpected or unverifiable download.
 
 ## Source and licensing
 
