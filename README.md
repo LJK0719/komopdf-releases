@@ -18,7 +18,7 @@ The release list can be empty while verification is in progress. This repository
 
 macOS architectures have separate packages; an arm64 package is not a universal or Intel binary. See each release for its tested minimum OS and requirements.
 
-Each release includes its verified installers, `stable.json`, `SHA256SUMS`, release notes and `THIRD_PARTY_NOTICES.txt`. Platforms can ship separately: the current 0.1.5 release provides Windows x64; macOS installers are not included. Version 0.1.5 includes browser sign-in with automatic desktop return, account and subscription settings, and conversation file attachments. Download only architectures actually listed in a release, using its fixed-version assets; do not substitute a guessed URL or a third-party wrapper.
+Each release includes its verified installers, `stable.json`, `SHA256SUMS`, release notes and `THIRD_PARTY_NOTICES.txt`. Platforms can ship separately: the current 0.1.6 release provides Windows x64; macOS installers are not included. Version 0.1.6 adds reliable account and billing return flows, persistent conversation history, and file attachments that remain available after opening a generated PDF. Download only architectures actually listed in a release, using its fixed-version assets; do not substitute a guessed URL or a third-party wrapper.
 
 ## Verify a download
 
