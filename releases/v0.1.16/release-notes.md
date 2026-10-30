@@ -1,4 +1,4 @@
-# komopdf 0.1.16 — Windows
+# komopdf 0.1.16 — Windows and macOS
 
 ## A faster, more direct PDF workspace
 
@@ -17,6 +17,12 @@
 
 ## Distribution notes
 
-- This release contains the Windows x64 installer. No macOS 0.1.16 package is included; the earlier macOS package remains in its original release.
+- This release contains Windows x64 and macOS Apple Silicon (arm64, macOS 13.0+) installers. No Intel macOS package is included.
 - Update packages are protected by a Tauri updater signature. The Windows installer is not Authenticode-signed; Windows may display an unknown-publisher/SmartScreen prompt.
 - The GitHub-generated source archives contain only this public release repository, not the private desktop implementation. Public editor source: https://github.com/LJK0719/komopdf
+
+## macOS Apple Silicon
+
+- Version 0.1.16 is built natively on an Apple Silicon Mac from the fixed desktop and shared-editor source revisions.
+- Includes the refreshed editor, reliable context menus and account/service workflow improvements.
+- The Mac app uses ad-hoc local signing and is not Apple-notarized. Mac updates in this release use the DMG installer; the in-app updater feed remains Windows-only.
