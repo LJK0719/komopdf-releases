@@ -10,8 +10,8 @@
 
 ## 下载与更新
 
-- 本次发布 Windows x64。0.1.16 用户可在“设置 → 关于”检查更新，或下载本版安装器覆盖安装。
-- macOS Apple Silicon 的已发布版本仍为 0.1.16，本次未提供新 Mac 安装包；Mac 原生构建待设备恢复连接后补齐。
+- 本次发布 Windows x64 与 macOS Apple Silicon。0.1.16 用户可在“设置 → 关于”检查更新，或下载本版安装器覆盖安装。
+- macOS Apple Silicon 已原生构建 0.1.17，要求 macOS 13.0 或更高版本；采用 ad-hoc 签名，未做 Apple 公证。Mac 通过 DMG 手动更新，无 Intel 安装包。
 - Windows 安装与更新保留账户、用户文档、工作区及恢复数据。
 - Windows updater 签名用于验证更新包完整性，不等于 Windows 发行者代码签名。
 - 此仓库的 Source code 归档仅包含公开发行资料，不包含私有桌面源码。
