@@ -20,9 +20,9 @@ macOS architectures have separate packages; an arm64 package is not a universal 
 
 Each release includes its verified installers, `stable.json`, `SHA256SUMS`, release notes and `THIRD_PARTY_NOTICES.txt`.
 
-Version **0.1.16** provides Windows x64 and macOS Apple Silicon, a compact document-first workspace, reliable selection context menus and improved account workflows. Windows includes signed in-app updates; install it once manually if upgrading from 0.1.15 or earlier. Updates require user approval and preserve open-document save prompts; uninstall preserves user documents and application data. The Windows installer has a Tauri update signature but is not Authenticode-signed.
+Version **0.1.17** provides Windows x64 with save-and-continue for updated materials, clearer question recovery and export retries that preserve settings. Windows includes signed in-app updates; install manually once if upgrading from 0.1.15 or earlier. Updates require user approval and preserve open-document save prompts; uninstall preserves user documents and application data. The Windows installer has a Tauri update signature but is not Authenticode-signed.
 
-The macOS package is built natively for Apple Silicon and requires macOS 13.0 or later. It uses ad-hoc signing and is not Apple-notarized; install updates from the DMG. No Intel package is included. Download only architectures actually listed in a release and verify their fixed-version assets.
+The latest available macOS Apple Silicon package remains **0.1.16**; this release does not include a new Mac build. That package requires macOS 13.0 or later, uses ad-hoc signing and is not Apple-notarized; install updates from the DMG. No Intel package is included. Download only architectures actually listed in a release and verify their fixed-version assets.
 
 ## Verify a download
 
