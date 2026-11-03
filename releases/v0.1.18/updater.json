@@ -1,0 +1,11 @@
+{
+  "version": "0.1.18",
+  "notes": "# komopdf 0.1.18\n\n## 更新内容\n\n- 提高清晰度：适配 Retina 和高 DPI 屏幕，页面与缩略图使用真实屏幕分辨率，跨显示器移动后自动更新。\n- 缩放即时响应：优化 Mac 触控板、滚轮、窗口尺寸变化与全屏切换，先显示缩放结果，再补绘高清画面，不再因普通视图操作锁住界面。\n- 优化复杂矢量 PDF：复用页面解析结果，优先绘制可见区域，取消过期请求，减少重复像素复制与密集对象布局计算。\n- 保留编辑状态：缩放和屏幕密度变化时保持选区、输入焦点及未提交草稿；改善大页瓦片切换和跨页批注点击。\n- 减少后台负担：合并缩略图更新，复用未变化页的批注，降低重复搜索检查和离屏绘制开销。\n- 修复 macOS 凭证读取：自动读取不再弹出钥匙串授权并阻塞启动；需要重新授权时，可在设置中点击“重试”。\n\n## 下载与更新\n\n- 提供 Windows x64 与 macOS Apple Silicon 安装包；不包含 Intel 或 universal Mac 安装包。\n- Windows 0.1.16 及以上版本可在“设置 → 关于”检查更新，也可下载安装器覆盖升级。更新前会保留未保存文档确认。\n- macOS 要求 macOS 13.0 或更高版本，通过 DMG 手动更新。应用采用 ad-hoc 签名，未做 Apple 公证。\n- Windows updater 签名用于验证更新包完整性，不等于 Windows 发行者代码签名。\n- 更新保留用户文档、账户、工作区、设置及恢复数据。\n- 此仓库的 Source code 归档仅包含公开发行资料，不包含私有桌面源码；共享编辑器与 PDF 内核源码位于公开 komopdf 仓库。\n",
+  "pub_date": "2026-11-03T09:39:55Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/LJK0719/komopdf-releases/releases/download/v0.1.18/komopdf-0.1.18-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMytxQXZKQjdpeFdwMEg2Y3AvdDFpVVhiR2dEdlptRVlnL3RUSW10TFYzZGMyTUhab25hNStkdWxjSDBhZUFNdGRyR2ZSclRmZUpIOXRDQTVJblRNblNnY0htaFhpMEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjk2OTUwCWZpbGU6a29tb3BkZl8wLjEuMThfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4xOApaRGFkRHM5SS9VYmR1WVJJMDdDWk1ZSEVDRkJqeWxtc2FhalpKdS90SVo2NHp3YkJEbUc4MFg4aVJkOHBUVW80bm9BcXV2VjRoa0N2djJiWklWdWNDQT09Cg=="
+    }
+  }
+}

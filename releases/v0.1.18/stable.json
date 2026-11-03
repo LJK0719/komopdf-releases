@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "product": "komopdf",
+  "channel": "stable",
+  "version": "0.1.18",
+  "publishedAt": "2026-11-03T09:39:55Z",
+  "releaseUrl": "https://github.com/LJK0719/komopdf-releases/releases/tag/v0.1.18",
+  "artifacts": [
+    {
+      "target": "windows-x64",
+      "name": "komopdf-0.1.18-windows-x64-setup.exe",
+      "url": "https://github.com/LJK0719/komopdf-releases/releases/download/v0.1.18/komopdf-0.1.18-windows-x64-setup.exe",
+      "sha256": "661ade6d34ced1d7b37085afb356eb9d417e67e3f4a09af6f5e57c87d12b98ad",
+      "bytes": 591924658,
+      "minimumOs": "Windows 10 22H2 or later, 64-bit"
+    },
+    {
+      "target": "macos-arm64",
+      "name": "komopdf-0.1.18-macos-arm64.dmg",
+      "url": "https://github.com/LJK0719/komopdf-releases/releases/download/v0.1.18/komopdf-0.1.18-macos-arm64.dmg",
+      "sha256": "4c2c4b0e00b6dfc6d09a9fa971f6afdb47100e5a3b57d6874ad28189685f0627",
+      "bytes": 387497554,
+      "minimumOs": "macOS 13.0 or later, Apple Silicon"
+    }
+  ]
+}
