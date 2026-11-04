@@ -1,0 +1,25 @@
+{
+  "version": "0.1.20",
+  "notes": "# komopdf 0.1.20\n\nNew komopdf logo and app icons across Windows and macOS, including installers. Click komo again to close its sidebar without losing your conversation. The website now puts language selection, pricing, app downloads, account and sign-in links in the top bar, with clear links back to the home page.\n\nWindows、macOS 和安装包统一采用新的 komopdf 标志与应用图标。再次点击 komo 即可收起侧栏，对话保持不变。网页顶栏新增显眼的语言选择、定价、App 下载、账户和登录入口，其他页面可直接返回首页。\n\nWindows uses a signed updater package without Authenticode. macOS builds use ad-hoc signing and are not notarized. Source archives on this release contain public distribution metadata, not private desktop source code.\n",
+  "pub_date": "2026-11-04T10:14:54.008Z",
+  "notesByLocale": {
+    "en": "New komopdf logo and app icons across Windows and macOS, including installers. Click komo again to close its sidebar without losing your conversation. The website now puts language selection, pricing, app downloads, account and sign-in links in the top bar, with clear links back to the home page.",
+    "zh-CN": "Windows、macOS 和安装包统一采用新的 komopdf 标志与应用图标。再次点击 komo 即可收起侧栏，对话保持不变。网页顶栏新增显眼的语言选择、定价、App 下载、账户和登录入口，其他页面可直接返回首页。",
+    "zh-TW": "Windows、macOS 與安裝程式統一採用新的 komopdf 標誌和應用程式圖示。再次點擊 komo 即可收合側欄，對話仍會保留。網站頂端新增清楚的語言選擇、方案價格、App 下載、帳戶與登入入口，其他頁面也可直接返回首頁。",
+    "ja": "Windows、macOS、インストーラーの komopdf ロゴとアプリアイコンを刷新しました。komo をもう一度クリックすると、会話を残したままサイドバーを閉じられます。ウェブ版の上部に言語、料金、アプリのダウンロード、アカウント、ログインへのリンクを追加し、各ページからホームに戻りやすくしました。",
+    "ko": "Windows, macOS 및 설치 프로그램에 새로운 komopdf 로고와 앱 아이콘을 적용했습니다. komo를 다시 클릭하면 대화를 유지한 채 사이드바를 닫을 수 있습니다. 웹사이트 상단에 언어 선택, 요금제, 앱 다운로드, 계정 및 로그인 링크를 추가하고 각 페이지에서 홈으로 쉽게 돌아갈 수 있도록 했습니다.",
+    "de": "Neues komopdf-Logo und neue App-Symbole für Windows und macOS, einschließlich der Installationsprogramme. Ein erneuter Klick auf komo schließt die Seitenleiste, ohne das Gespräch zu verlieren. Die Website bietet nun Sprachauswahl, Preise, App-Download, Konto und Anmeldung direkt in der oberen Leiste sowie klare Links zurück zur Startseite.",
+    "fr": "Nouveau logo komopdf et nouvelles icônes sous Windows et macOS, y compris dans les programmes d’installation. Cliquez à nouveau sur komo pour fermer le panneau latéral sans perdre votre conversation. La barre supérieure du site donne désormais accès aux langues, aux tarifs, au téléchargement de l’app, au compte et à la connexion, avec un lien clair vers l’accueil sur les autres pages.",
+    "es": "Nuevo logotipo de komopdf e iconos de la aplicación en Windows y macOS, incluidos los instaladores. Vuelve a pulsar komo para cerrar el panel lateral sin perder la conversación. La barra superior del sitio incluye ahora el idioma, los precios, la descarga de la app, la cuenta y el inicio de sesión, con enlaces claros para volver a la página de inicio.",
+    "pt-BR": "Novo logotipo do komopdf e novos ícones no Windows e no macOS, incluindo os instaladores. Clique novamente em komo para fechar o painel lateral sem perder a conversa. O site agora oferece seleção de idioma, preços, download do app, conta e login na barra superior, além de links claros para voltar ao início.",
+    "it": "Nuovo logo komopdf e nuove icone per Windows e macOS, inclusi i programmi di installazione. Fai di nuovo clic su komo per chiudere il pannello laterale senza perdere la conversazione. La barra superiore del sito offre ora lingua, prezzi, download dell’app, account e accesso, con collegamenti chiari per tornare alla home page.",
+    "ru": "Новый логотип komopdf и значки приложения для Windows и macOS, включая установщики. Повторное нажатие на komo закрывает боковую панель, сохраняя разговор. В верхней панели сайта теперь доступны выбор языка, тарифы, скачивание приложения, аккаунт и вход, а на остальных страницах — понятная ссылка на главную."
+  },
+  "notesLocale": "en",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/LJK0719/komopdf-releases/releases/download/v0.1.20/komopdf-0.1.20-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMytxQXZKQjdpeGNncHk1ZHI0NVlieEJtMzRIbFNDaXpTUW1NYTlMZ1lhazh1MFpaeTcrMCtwZmVIMXNSazg3YUp4SlorZjE3SzRTSVN5LzJkbmQzSUJJVmFrYUdTcFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzcwNTMzCWZpbGU6a29tb3BkZl8wLjEuMjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4yMApBSHJqOFoyQjN5Z3c3K3dqdU5iZzBUN2NlZE5Pa2JyM0JxQSs2Y2dBT3lxVHhqSjhqRlB0Q3BuUWx3a2wxdnF2WUZUbjdTanpzVUtRMEVpSFdJdERDZz09Cg=="
+    }
+  }
+}
