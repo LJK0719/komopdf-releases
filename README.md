@@ -20,9 +20,9 @@ macOS architectures have separate packages; an arm64 package is not a universal 
 
 Each release includes its verified installers, `stable.json`, `SHA256SUMS`, release notes and `THIRD_PARTY_NOTICES.txt`.
 
-Version **0.1.20** introduces the new komopdf logo and application icons across Windows, macOS and installers. Clicking komo again closes its sidebar while preserving the conversation. All 11 interface languages, localized menus, installer prompts and release notes remain supported. Windows includes signed in-app updates; install manually once if upgrading from 0.1.15 or earlier. Updates require user approval and preserve open-document save prompts; uninstall preserves user documents and application data. The Windows installer has a Tauri update signature but is not Authenticode-signed.
+Version **0.1.21** improves opening long PDFs, scrolling, zooming and text selection, with smaller downloads on Windows and Mac. Offline editing, text recognition, Word conversion, komo and all 11 interface languages remain included. Windows has one complete installer with offline installation support and signed in-app updates; install manually once if upgrading from 0.1.15 or earlier. Updates preserve open-document save prompts, and uninstall preserves user documents and application data. The Windows installer has an updater signature but is not Authenticode-signed.
 
-The macOS **0.1.20** package is built natively for Apple Silicon and requires macOS 13.0 or later. It uses ad-hoc signing and is not Apple-notarized; install updates from the DMG. No Intel package is included. Download only architectures actually listed in a release and verify their fixed-version assets.
+The macOS **0.1.21** package is built natively for Apple Silicon and requires macOS 13.0 or later. This release also fixes image resizing during export and improves Chinese italics. It uses ad-hoc signing and is not Apple-notarized; install updates from the DMG. No Intel package is included. Download only architectures actually listed in a release and verify their fixed-version assets.
 
 ## Verify a download
 
