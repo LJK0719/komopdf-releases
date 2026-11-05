@@ -38,7 +38,7 @@ macOS:
 shasum -a 256 komopdf-VERSION-macos-arm64.dmg
 ```
 
-Compare the exact hash against `SHA256SUMS` and the website. Do not bypass operating-system security warnings to run an unexpected or unverifiable download.
+Checksums are included in the release's `SHA256SUMS` asset.
 
 ## Source and licensing
 
