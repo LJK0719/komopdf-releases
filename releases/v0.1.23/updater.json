@@ -1,0 +1,25 @@
+{
+  "version": "0.1.23",
+  "notes": "# komopdf 0.1.23\n\n- Ask Komo product questions, contact support, send feedback and follow your requests from Help & support.\n- Support replies follow your selected interface language.\n- Simpler AI editing: explain, summarize or rewrite text from one entry, then apply changes in one click.\n- More reliable PDF answers and follow-up questions, with improved streaming, document context and cancellation.\n- Connect KolmoPDF on the web for full-document reading and PDF translation.\n- Fix text editing and selection after changing a paragraph; simplify downloads, settings and scan-search controls.\n\n---\n\n- 在“帮助与客服”中咨询产品、联系人工、提交反馈并跟进请求。\n- 客服回答跟随当前界面语言。\n- 统一“使用 AI”入口，直接提出解释、总结或改写要求，一键应用修改。\n- 改善 PDF 流式回答、连续追问、文档上下文与取消操作。\n- 网页可连接 KolmoPDF，读取全文并翻译整篇 PDF。\n- 修复段落改字后的再次编辑和拖选错位，精简下载、设置及扫描件查找界面。\n\nWindows supports offline installation. Mac requires Apple Silicon and macOS 13 or later.\n",
+  "pub_date": "2026-11-06T07:59:56Z",
+  "notesByLocale": {
+    "en": "Get help from Komo through Help & support. Ask product questions, contact the support team, share feedback and follow your requests. Replies follow your selected interface language. Includes streaming PDF answers, one-click AI edits, full-document KolmoPDF reading and translation on the web, and improved text selection after editing.",
+    "zh-CN": "在“帮助与客服”中与 Komo 交流，咨询产品使用、联系人工、提交反馈并跟进请求。客服回答跟随当前界面语言。本次还包含 PDF 流式问答、AI 修改一键应用、网页 KolmoPDF 全文阅读与翻译，以及改字后的文字选择优化。",
+    "zh-TW": "在「說明與客服」中與 Komo 交流，詢問產品使用、聯絡客服、提交意見並追蹤請求。客服回答遵循目前介面語言。本次亦包含 PDF 串流問答、AI 修改一鍵套用、網頁 KolmoPDF 全文閱讀與翻譯，以及編輯後的文字選取改善。",
+    "ja": "「ヘルプとサポート」からKomoに製品の使い方を質問し、担当者への問い合わせ、フィードバックの送信、依頼の確認ができます。回答は選択中の表示言語に従います。PDFのストリーミング回答、AI編集のワンクリック適用、ウェブでのKolmoPDF全文読み取りと翻訳、編集後の文字選択の改善も含まれます。",
+    "ko": "도움말 및 지원에서 Komo에게 제품 사용법을 묻고, 지원팀에 문의하거나 의견을 보내고 요청을 확인하세요. 답변은 선택한 화면 언어를 따릅니다. PDF 실시간 답변, AI 수정 한 번에 적용, 웹 KolmoPDF 전체 문서 읽기와 번역, 편집 후 텍스트 선택 개선도 포함됩니다.",
+    "de": "Über Hilfe und Support Produktfragen an Komo stellen, das Supportteam kontaktieren, Feedback teilen und Anfragen verfolgen. Antworten folgen der gewählten Oberflächensprache. Enthält außerdem gestreamte PDF-Antworten, KI-Änderungen per Klick, vollständiges Lesen und Übersetzen mit KolmoPDF im Web sowie eine verbesserte Textauswahl nach dem Bearbeiten.",
+    "fr": "Depuis Aide et assistance, posez vos questions à Komo, contactez l’équipe, partagez vos idées et suivez vos demandes. Les réponses suivent la langue choisie dans l’interface. Cette version comprend aussi les réponses PDF en continu, les modifications IA en un clic, la lecture et la traduction intégrales avec KolmoPDF sur le web et une meilleure sélection du texte après modification.",
+    "es": "En Ayuda y soporte puedes consultar a Komo, contactar al equipo, enviar comentarios y seguir tus solicitudes. Las respuestas usan el idioma seleccionado en la interfaz. También incluye respuestas PDF en tiempo real, cambios de IA con un clic, lectura y traducción de documentos completos con KolmoPDF en la web y mejoras en la selección de texto tras editarlo.",
+    "pt-BR": "Em Ajuda e suporte, tire dúvidas com o Komo, fale com a equipe, envie sugestões e acompanhe suas solicitações. As respostas seguem o idioma escolhido na interface. Inclui também respostas PDF em tempo real, edições de IA com um clique, leitura e tradução completas com KolmoPDF na web e melhor seleção de texto após a edição.",
+    "it": "Da Aiuto e assistenza puoi fare domande a Komo, contattare il team, inviare suggerimenti e seguire le richieste. Le risposte seguono la lingua scelta nell’interfaccia. Sono inclusi anche risposte PDF in streaming, modifiche IA con un clic, lettura e traduzione complete con KolmoPDF sul web e una migliore selezione del testo dopo la modifica.",
+    "ru": "В разделе «Помощь и поддержка» можно задать вопрос Komo, связаться с командой, отправить отзыв и следить за обращениями. Ответы соответствуют выбранному языку интерфейса. Также доступны потоковые ответы по PDF, применение ИИ-правок одним нажатием, чтение и перевод полных документов через KolmoPDF в веб-версии и улучшенное выделение текста после редактирования."
+  },
+  "notesLocale": "en",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/LJK0719/komopdf-releases/releases/download/v0.1.23/komopdf-0.1.23-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMytxQXZKQjdpeGJnQzdFU3hQSldkTmcxZCthV2J6bjVjOXJKYndIRkFSc0pYeEtnc01pMUdmdmZVblBwcVlXNDFjUUViTXV6aVZFUitmcnhXbXp5QW9yV2FSK0dzOFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTUxODQxCWZpbGU6a29tb3BkZl8wLjEuMjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4yMwowRm94SnIxdHJQMmorYXlRRzJaUWh0akNGQzJORnBLS3Jiamo3Y2Y1WDZ5ZFk2Y0pKVnZqWkxMZjF1YUJHbGZNaDRZWExpYTRxTDNST1MwckpIeDFBQT09Cg=="
+    }
+  }
+}
