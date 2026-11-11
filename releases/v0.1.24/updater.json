@@ -1,19 +1,19 @@
 {
   "version": "0.1.24",
-  "notes": "# komopdf 0.1.24\n\n- Selected-text translation now appears as it is generated. Translation uses low reasoning effort while keeping the same model.\n- The left Bookmarks panel now supports expandable document outlines, nested sections, page numbers, and navigation to the selected page.\n- Translation remains one request for the complete selection. It can be stopped without changing the PDF.\n\n## Downloads\n\nThis release updates Windows x64. The current Mac download remains version 0.1.23; the Mac update will follow when its build is available.\n\n# 更新内容\n\n- 选区翻译改为流式显示，并使用低思考强度，保留原有模型。\n- 左侧书签面板支持层级目录展开、折叠、页码显示和点击跳页。\n- 完整选区仍只发送一次请求；可以停止翻译，不会修改 PDF。\n\n本次发布 Windows x64 版本。Mac 下载暂时保留 0.1.23，新版将在构建完成后提供。\n",
+  "notes": "# komopdf 0.1.24\n\n- Selected-text translation now appears as it is generated. Translation uses low reasoning effort while keeping the same model.\n- The left Bookmarks panel now supports expandable document outlines, nested sections, page numbers, and navigation to the selected page.\n- Translation remains one request for the complete selection. It can be stopped without changing the PDF.\n\n## Downloads\n\nAvailable for Windows x64 and Mac with Apple silicon.\n\n# 更新内容\n\n- 选区翻译改为流式显示，并使用低思考强度，保留原有模型。\n- 左侧书签面板支持层级目录展开、折叠、页码显示和点击跳页。\n- 完整选区仍只发送一次请求；可以停止翻译，不会修改 PDF。\n\n本次发布 Windows x64 和 Mac Apple Silicon 版本。\n",
   "pub_date": "2026-11-11T11:51:58Z",
   "notesByLocale": {
-    "en": "Selected-text translation now streams with low reasoning effort. The left Bookmarks panel supports expandable document outlines and page navigation. This release updates Windows; Mac remains on 0.1.23 for now.",
-    "zh-CN": "选区翻译改为流式显示并使用低思考强度。左侧书签面板支持层级目录展开、折叠和跳页。本次更新 Windows，Mac 暂时保留 0.1.23。",
-    "zh-TW": "選取文字翻譯改為串流顯示並使用低思考強度。左側書籤面板支援階層目錄展開、收合與跳頁。本次更新 Windows，Mac 暫時保留 0.1.23。",
-    "ja": "選択テキストの翻訳を低い推論強度でストリーミング表示します。左側のブックマークで階層の展開・折りたたみとページ移動ができます。今回は Windows を更新し、Mac は当面 0.1.23 のままです。",
-    "ko": "선택한 텍스트의 번역이 낮은 추론 강도로 스트리밍됩니다. 왼쪽 책갈피에서 문서 목차를 펼치거나 접고 해당 페이지로 이동할 수 있습니다. 이번에는 Windows가 업데이트되며 Mac은 당분간 0.1.23을 유지합니다.",
-    "de": "Markierter Text wird mit niedriger Denkintensität übersetzt und schrittweise angezeigt. Die Lesezeichenleiste unterstützt aufklappbare Gliederungen und Seitennavigation. Dieses Update gilt für Windows; Mac bleibt vorerst bei 0.1.23.",
-    "fr": "La traduction du texte sélectionné s’affiche progressivement avec un effort de raisonnement faible. Le volet Signets propose un plan dépliable et la navigation par page. Cette version met à jour Windows ; Mac reste pour le moment en 0.1.23.",
-    "es": "La traducción del texto seleccionado se muestra progresivamente con un esfuerzo de razonamiento bajo. El panel de marcadores permite expandir el esquema y navegar por páginas. Esta versión actualiza Windows; Mac permanece por ahora en 0.1.23.",
-    "pt-BR": "A tradução do texto selecionado aparece progressivamente com baixo esforço de raciocínio. O painel de marcadores permite expandir o sumário e navegar pelas páginas. Esta versão atualiza o Windows; o Mac permanece por enquanto na versão 0.1.23.",
-    "it": "La traduzione del testo selezionato viene mostrata progressivamente con un basso sforzo di ragionamento. Il pannello Segnalibri supporta una struttura espandibile e la navigazione tra le pagine. Questa versione aggiorna Windows; Mac resta per ora alla 0.1.23.",
-    "ru": "Перевод выделенного текста теперь отображается постепенно с низким уровнем рассуждений. Панель закладок поддерживает раскрываемое оглавление и переходы по страницам. В этом выпуске обновлён Windows; Mac пока остаётся на версии 0.1.23."
+    "en": "Selected-text translation now streams with low reasoning effort. The left Bookmarks panel supports expandable document outlines and page navigation.",
+    "zh-CN": "选区翻译改为流式显示并使用低思考强度。左侧书签面板支持层级目录展开、折叠和跳页。",
+    "zh-TW": "選取文字翻譯改為串流顯示並使用低思考強度。左側書籤面板支援階層目錄展開、收合與跳頁。",
+    "ja": "選択テキストの翻訳を低い推論強度でストリーミング表示します。左側のブックマークで階層の展開・折りたたみとページ移動ができます。",
+    "ko": "선택한 텍스트의 번역이 낮은 추론 강도로 스트리밍됩니다. 왼쪽 책갈피에서 문서 목차를 펼치거나 접고 해당 페이지로 이동할 수 있습니다.",
+    "de": "Markierter Text wird mit niedriger Denkintensität übersetzt und schrittweise angezeigt. Die Lesezeichenleiste unterstützt aufklappbare Gliederungen und Seitennavigation.",
+    "fr": "La traduction du texte sélectionné s’affiche progressivement avec un effort de raisonnement faible. Le volet Signets propose un plan dépliable et la navigation par page.",
+    "es": "La traducción del texto seleccionado se muestra progresivamente con un esfuerzo de razonamiento bajo. El panel de marcadores permite expandir el esquema y navegar por páginas.",
+    "pt-BR": "A tradução do texto selecionado aparece progressivamente com baixo esforço de raciocínio. O painel de marcadores permite expandir o sumário e navegar pelas páginas.",
+    "it": "La traduzione del testo selezionato viene mostrata progressivamente con un basso sforzo di ragionamento. Il pannello Segnalibri supporta una struttura espandibile e la navigazione tra le pagine.",
+    "ru": "Перевод выделенного текста теперь отображается постепенно с низким уровнем рассуждений. Панель закладок поддерживает раскрываемое оглавление и переходы по страницам."
   },
   "notesLocale": "en",
   "platforms": {
