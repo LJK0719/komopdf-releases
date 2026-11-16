@@ -20,9 +20,9 @@ macOS architectures have separate packages; an arm64 package is not a universal 
 
 Each release includes its verified installers, `stable.json`, `SHA256SUMS`, release notes and `THIRD_PARTY_NOTICES.txt`.
 
-Version **0.1.27** fixes saving text edits when the original PDF font is missing a newly entered character. Missing characters receive an automatically matched font while unchanged text keeps its original font. Saving directly from the text editor and continuing edits after reopening a PDF are also fixed. Offline editing, text recognition, Word conversion, komo and all 11 interface languages remain included. Windows has one complete installer with offline installation support and signed in-app updates; install manually once if upgrading from 0.1.15 or earlier. Updates preserve open-document save prompts, and uninstall preserves user documents and application data. The Windows installer has an updater signature but is not Authenticode-signed.
+Version **0.1.28** adds PDF Open With registration on Windows, improves PDF handling priority on Mac, and introduces a one-time recommendation and a dedicated Default PDF app settings page. System confirmation is retained where required, and komopdf checks the actual default status. Offline editing, text recognition, Word conversion, komo and all 11 interface languages remain included. Windows has one complete installer with offline installation support and signed in-app updates; install manually once if upgrading from 0.1.15 or earlier. Updates preserve open-document save prompts, and uninstall preserves user documents and application data. The Windows installer has an updater signature but is not Authenticode-signed.
 
-The macOS **0.1.27** package is built natively for Apple Silicon and requires macOS 13.0 or later. It uses ad-hoc signing and is not Apple-notarized; install updates from the DMG. No Intel package is included. Download only architectures actually listed in a release.
+The macOS **0.1.28** package is built natively for Apple Silicon and requires macOS 13.0 or later. It uses ad-hoc signing and is not Apple-notarized; install updates from the DMG. No Intel package is included. Download only architectures actually listed in a release.
 
 ## Verify a download
 
